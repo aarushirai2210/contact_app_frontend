@@ -1,6 +1,5 @@
 import axios from "axios";
 export const getAllContact = () => (dispatch) => {
-    console.log("hello")
   axios
     .get("/get/contact/list")
     .then((res) => {
