@@ -6,7 +6,7 @@ function ContactList(props) {
   }, []);
   return (
     <div className="contact-list">
-      {props.contact && props.contacts.map(data=>(
+      {props.contacts && props.contacts.map(data=>(
         <div className="card">
         <img src="https://srmuniversity.ac.in/wp-content/uploads/professor/user-avatar-default.jpg" />
         <div className="card-detail">
